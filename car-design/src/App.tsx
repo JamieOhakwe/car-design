@@ -1,13 +1,24 @@
-import './App.css'
+import "./App.css";
+
+// import GetLocation from "./Components/GetLocation/GetLocation";
+import Hero from "./Components/Hero/Hero";
+import NewCompo from "./Components/NewCompo/NewCompo";
+// import AddTodo from './Components/AddTodo/AddTodo'
+
+
+
 
 function App() {
-  
-
-  return (
-    <>
-      <h1>YOU ARE IN MY WORLD NOW</h1>
-    </>
-  )
+	
+	return (
+		<>
+			{/* <Hero/> */}
+			{/* <GetLocation/> */}
+			<NewCompo/>
+			
+		
+		</>
+	);
 }
 
-export default App
+export default App;
