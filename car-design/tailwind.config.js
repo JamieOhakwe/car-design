@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Goldman', 'sans-serif'],
+        lite: ['Raleway', 'sans-serif'],
       },
     },
   },

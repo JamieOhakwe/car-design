@@ -1,6 +1,7 @@
 // import car from '../../assets/img/car.png'
 import background from "../../assets/img/background.png";
 import logo from "../../assets/img/logomoto.png";
+// import Cards from "../Cards/Cards";
 
 
 
@@ -12,7 +13,7 @@ const Hero = () => {
 	
 	return (
 		<>
-			<div className="bg-white  relative  w-full flex items-center justify-center ">
+			<div className="bg-white  relative  w-full flex flex-col items-center justify-center ">
 				<img
 					src={background}
 					alt="background"
@@ -32,10 +33,14 @@ const Hero = () => {
 						<li>Reviews</li>
 					</ul>
 
-					<span className="text-white font-sans text-400">
+					<span className="text-white font-sans font-bold text-7xl mt-[4rem] flex">
 						Drive with Purpose
 					</span>
+					<span className="text-white font-extralight font-sans text-7xl mt-[4rem] flex">
+					Find Your Perfect Drive
+					</span>
 				</div>
+				{/* <Cards/> */}
 				
 			</div>
 		</>

@@ -1,0 +1,6 @@
+.flipped {
+    transform: scaleX(-1); /* Horizontal flip */
+    /* OR */
+    /* transform: scaleY(-1);  */
+    width: 100px;
+  }
