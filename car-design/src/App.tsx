@@ -13,7 +13,10 @@ function App() {
 	
 	return (
 		<>
+		<div className="m-[1rem]">
+
 			<Homepage/>
+		</div>
 			{/* <GetLocation/> */}
 			{/* <NewCompo/> */}
 			
